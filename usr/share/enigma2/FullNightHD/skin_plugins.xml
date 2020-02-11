@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <skin>
 	<!-- PartnerBox -->
 
@@ -28,7 +28,7 @@
 	</screen>
 
 	<screen name="RemotePlayer" flags="wfNoBorder" position="424,270" size="1080,864" title="Partnerbox - RemotePlayer" backgroundColor="#FFFFFFFF">
-		<!--ePixmap position="61,582" zPosition="-1" size="945,195" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/Partnerbox/ExPlayer.png" alphatest="off" transparent="1"/-->
+		<!--ePixmap position="61,582" zPosition="-1" size="945,195" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/Partnerbox/ExPlayer.png" alphatest="off" transparent="1"/-->
 		<widget name="ServiceName" zPosition="1" position="75,606" size="915,88" valign="center" halign="center" font="Regular;31" foregroundColor="#F0F0F0" backgroundColor="#302C2C39"/>
 		<widget name="DateTime" zPosition="1" position="78,709" size="750,45" halign="left" font="Regular;24" foregroundColor="#F0F0F0" backgroundColor="#302C2C39" transparent="1"/>
 		<widget name="IP" zPosition="2" position="541,709" size="450,45" halign="right" font="Regular;24" foregroundColor="#F0F0F0" backgroundColor="#302C2C39" transparent="1"/>
@@ -89,8 +89,8 @@
 
 	<screen flags="wfNoBorder" name="VlcMediaListScreen" position="fill" title="Select a VLC-Server Profile">
 		<panel name="PigTemplate"/>
-		<widget name="filelist_button_sel" pixmap="PLi-FullNightHD-Mod-M/epg_now.png" position="885,165" size="315,60" zPosition="1" alphatest="on"/>
-		<widget name="playlist_button_sel" pixmap="PLi-FullNightHD-Mod-M/epg_next.png" position="885,165" size="315,60" zPosition="1" alphatest="on"/>
+		<widget name="filelist_button_sel" pixmap="FullNightHD/epg_now.png" position="885,165" size="315,60" zPosition="1" alphatest="on"/>
+		<widget name="playlist_button_sel" pixmap="FullNightHD/epg_next.png" position="885,165" size="315,60" zPosition="1" alphatest="on"/>
 		<widget name="filelist_text" position="885,165" size="165,37" backgroundColor="secondBG" transparent="1" zPosition="2" foregroundColor="secondFG" font="Regular;27" valign="center" halign="center"/>
 		<widget name="playlist_text" position="1035,165" size="165,37" backgroundColor="secondBG" transparent="1" zPosition="2" foregroundColor="secondFG" font="Regular;27" valign="center" halign="center"/>
 		<widget name="server_name" position="1260,165" size="300,37" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;33" valign="center" halign="left"/>
@@ -125,9 +125,9 @@
 
 	<screen name="CableScanStatus" title="Cable Scan" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
-		<widget name="frontend" pixmap="PLi-FullNightHD-Mod-M/icons/scan-c.png" position="780,180" size="96,96" zPosition="2" transparent="1" alphatest="on"/>
+		<widget name="frontend" pixmap="FullNightHD/icons/scan-c.png" position="780,180" size="96,96" zPosition="2" transparent="1" alphatest="on"/>
 		<widget name="scan_state" position="780,345" zPosition="2" size="720,45" valign="center" font="Regular;30" transparent="1"/>
-		<widget name="scan_progress" position="780,397" size="720,22" pixmap="PLi-FullNightHD-Mod-M/progress_big.png" borderWidth="2" borderColor="#cccccc"/>
+		<widget name="scan_progress" position="780,397" size="720,22" pixmap="FullNightHD/progress_big.png" borderWidth="2" borderColor="#cccccc"/>
 	</screen>
 
 	<!-- DVD Backup -->
@@ -155,7 +155,7 @@
 	<screen name="ProjectSettings" position="fill" title="Collection settings" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<widget name="config" position="780,105" size="1110,414" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/div-h.png" position="885,615" zPosition="1" size="900,3"/>
+		<ePixmap pixmap="FullNightHD/div-h.png" position="885,615" zPosition="1" size="900,3"/>
 		<widget source="info" render="Label" position="900,630" size="900,120" font="Regular;27" halign="center" valign="center"/>
 	</screen>
 
@@ -203,8 +203,8 @@
 			}
 		</convert>
 	</widget>
-	<ePixmap pixmap="PLi-FullNightHD-Mod-M/div-h.png" position="885,678" zPosition="10" size="840,3"/>
-	<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/key_menu.png" position="900,684" size="52,38" alphatest="on"/>
+	<ePixmap pixmap="FullNightHD/div-h.png" position="885,678" zPosition="10" size="840,3"/>
+	<ePixmap pixmap="FullNightHD/buttons/key_menu.png" position="900,684" size="52,38" alphatest="on"/>
 	<widget source="hint" render="Label" position="960,687" size="810,33" font="Regular;27" halign="left"/>
 	<widget name="medium_label" position="900,723" size="810,33" font="Regular;27" halign="left" foregroundColors="#FFFFFF,#FFFF00,#FF0000"/>
 	<widget source="space_bar_single" render="Progress" position="900,762" size="405,36" borderWidth="1" zPosition="2" backgroundColor="#254f7497"/>
@@ -269,8 +269,8 @@
 
 	<screen name="TempFanControl" position="fill" title="Fan Control" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/red.png" position="192,1030" size="34,34" alphatest="on"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/green.png" position="628,1030" size="34,34" alphatest="on"/>
+		<ePixmap pixmap="FullNightHD/buttons/red.png" position="192,1030" size="34,34" alphatest="on"/>
+		<ePixmap pixmap="FullNightHD/buttons/green.png" position="628,1030" size="34,34" alphatest="on"/>
 		<widget source="red" render="Label" position="242,1030" size="370,38" backgroundColor="darkgrey" zPosition="2" transparent="1" foregroundColor="grey" font="Regular;34" halign="left"/>
 		<widget source="green" render="Label" position="678,1030" size="370,38" backgroundColor="darkgrey" zPosition="2" transparent="1" foregroundColor="grey" font="Regular;34" halign="left"/>
 		<widget name="config" position="780,105" size="1110,180" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
@@ -403,7 +403,7 @@
 	</gstyle>
 
 	<screen name="Dish" flags="wfNoBorder" position="30,90" size="195,303" title="Dish" zPosition="1" backgroundColor="transparent" >
-		<widget name="Dishpixmap" position="0,0" size="195,240" zPosition="-1" pixmap="PLi-FullNightHD-Mod-M/icons/dish.png" transparent="1" alphatest="blend"/>
+		<widget name="Dishpixmap" position="0,0" size="195,240" zPosition="-1" pixmap="FullNightHD/icons/dish.png" transparent="1" alphatest="blend"/>
 		<widget name="turnTime" position="67,7" size="120,30" zPosition="1" font="Regular;26" halign="right" borderWidth="1" transparent="1"/>
 		<widget name="From" position="7,246" size="67,27" zPosition="1" font="Regular;24" halign="left" borderWidth="1" transparent="1"/>
 		<widget name="posFrom" position="85,245" size="105,32" zPosition="1" font="Regular;28" halign="left" borderWidth="1" transparent="1"/>
@@ -414,7 +414,7 @@
 	</screen>
 
 	<screen name="Dishpip" flags="wfNoBorder" position="30,90" size="130,202" title="DishPiP" zPosition="1" backgroundColor="transparent" >
-		<widget source="Dishpixmap" render="Pixmap" pixmap="PLi-FullNightHD-Mod-M/icons/dish.png" zPosition="-1" position="0,0" size="130,160" alphatest="blend">
+		<widget source="Dishpixmap" render="Pixmap" pixmap="FullNightHD/icons/dish.png" zPosition="-1" position="0,0" size="130,160" alphatest="blend">
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<eLabel text="PiP" position="27,40" size="40,25" font="Regular;18" foregroundColor="#909090" backgroundColor="#909090" transparent="1" zPosition="1"/>
@@ -431,10 +431,10 @@
 
 	<screen flags="wfNoBorder" name="MovieTagger" position="fill" title="Movie Tagger">
 		<panel name="PigTemplate"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/red.png" alphatest="blend" position="192,1030" size="34,34"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/green.png" alphatest="blend" position="628,1030" size="34,34"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/yellow.png" alphatest="blend" position="1064,1030" size="34,34"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/blue.png" alphatest="blend" position="1500,1030" size="34,34"/>
+		<ePixmap pixmap="FullNightHD/buttons/red.png" alphatest="blend" position="192,1030" size="34,34"/>
+		<ePixmap pixmap="FullNightHD/buttons/green.png" alphatest="blend" position="628,1030" size="34,34"/>
+		<ePixmap pixmap="FullNightHD/buttons/yellow.png" alphatest="blend" position="1064,1030" size="34,34"/>
+		<ePixmap pixmap="FullNightHD/buttons/blue.png" alphatest="blend" position="1500,1030" size="34,34"/>
 		<widget name="buttonred" backgroundColor="secondBG" font="Regular;34" halign="left" position="242,1030" size="370,38" transparent="1" zPosition="1"/>
 		<widget name="buttongreen" backgroundColor="secondBG" font="Regular;34" halign="left" position="678,1030" size="370,38" transparent="1" zPosition="1"/>
 		<widget name="buttonyellow" backgroundColor="secondBG" font="Regular;34" halign="left" position="1114,1030" size="370,38" transparent="1" zPosition="1"/>
@@ -469,9 +469,9 @@
 		</widget>
 		<widget name="SeekState" position="532,949" zPosition="1" size="150,37" halign="right" font="Regular;30" valign="center"/>
 		<widget name="Timeline" position="690,952" size="1140,30" backgroundColor="#505555" pointer="position_arrow.png:4,11" foregroundColor="black"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/key_ok.png" position="183,1032" size="52,38" alphatest="blend"/>
+		<ePixmap pixmap="FullNightHD/buttons/key_ok.png" position="183,1032" size="52,38" alphatest="blend"/>
 		<eLabel text="Menu" position="251,1030" size="370,38" backgroundColor="secondBG" font="Regular;34" halign="left" transparent="1" zPosition="1"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/key_0.png" position="619,1032" size="52,38" alphatest="blend"/>
+		<ePixmap pixmap="FullNightHD/buttons/key_0.png" position="619,1032" size="52,38" alphatest="blend"/>
 		<eLabel text="Mark" position="687,1030" size="370,38" backgroundColor="secondBG" font="Regular;34" halign="left" transparent="1" zPosition="1"/>
 	</screen>
 
@@ -479,17 +479,17 @@
 
 	<screen flags="wfNoBorder" name="AboutScreen" position="fill" title="NetRadio Classic v.2.2c-Tunisiasat">
 		<panel name="PigTemplate"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/red.png" alphatest="on" position="172,1030" size="34,34"/>
+		<ePixmap pixmap="FullNightHD/buttons/red.png" alphatest="on" position="172,1030" size="34,34"/>
 		<eLabel text="Exit" backgroundColor="secondBG" font="Regular;34" halign="left" position="222,1030" size="330,42" transparent="1" zPosition="1"/>
-	<ePixmap position="142,630" zPosition="4" size="510,180" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/ClassicNetRadio/icons/tunisiasat.jpg" transparent="1" alphatest="on"/>
+	<ePixmap position="142,630" zPosition="4" size="510,180" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/ClassicNetRadio/icons/tunisiasat.jpg" transparent="1" alphatest="on"/>
 		<widget name="text" font="Regular;36" position="780,100" size="1110,912" transparent="1"/>
 	</screen>
 
 	<screen flags="wfNoBorder" name="Menuscrn" position="fill" title="NetRadio Classic Menu">
 		<panel name="PigTemplate"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/red.png" alphatest="on" position="172,1030" size="34,34"/>
+		<ePixmap pixmap="FullNightHD/buttons/red.png" alphatest="on" position="172,1030" size="34,34"/>
 		<eLabel text="Exit" backgroundColor="secondBG" font="Regular;34" halign="left" position="222,1030" size="330,42" transparent="1" zPosition="1"/>
-	<ePixmap position="142,630" zPosition="4" size="510,180" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/ClassicNetRadio/icons/menu2.jpg" transparent="1" alphatest="on"/>
+	<ePixmap position="142,630" zPosition="4" size="510,180" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/ClassicNetRadio/icons/menu2.jpg" transparent="1" alphatest="on"/>
 		<widget name="menu" font="Regular;36" position="780,100" size="1110,912" scrollbarMode="showOnDemand" transparent="1"/>
 	</screen>
 
@@ -500,7 +500,7 @@
 
 	<screen flags="wfNoBorder" name="playingscrn" position="fill" title="NetRadio Classic Playing">
 		<panel name="BasicTemplate"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/red.png" alphatest="on" position="172,1030" size="34,34"/>
+		<ePixmap pixmap="FullNightHD/buttons/red.png" alphatest="on" position="172,1030" size="34,34"/>
 		<eLabel text="Exit" backgroundColor="secondBG" font="Regular;34" halign="left" position="222,1030" size="370,42" foregroundColor="grey" transparent="1" zPosition="1"/>
 		<widget name="titel" font="Regular;39" position="150,225" foregroundColor="yellow" valign="center" halign="center" size="1650,450" transparent="1"/>
 		<eLabel text="Favorite" backgroundColor="secondBG" font="Regular;34" halign="right" position="1125,967" size="370,42" foregroundColor="grey" transparent="1" zPosition="1"/>
@@ -509,8 +509,8 @@
 
 	<screen flags="wfNoBorder" name="StationsScreen" position="fill" title="Add to Favorites">
 		<panel name="BasicTemplate"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/blue.png" alphatest="on" position="1500,1030" size="34,34"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/red.png" alphatest="on" position="192,1030" size="34,34"/>
+		<ePixmap pixmap="FullNightHD/buttons/blue.png" alphatest="on" position="1500,1030" size="34,34"/>
+		<ePixmap pixmap="FullNightHD/buttons/red.png" alphatest="on" position="192,1030" size="34,34"/>
 		<eLabel text="Exit" backgroundColor="secondBG" font="Regular;34" halign="left" position="242,1030" size="370,38" transparent="1" zPosition="1"/>
 		<widget name="ButtonBluetext" backgroundColor="secondBG" font="Regular;34" halign="left" position="1550,1030" size="370,38" transparent="1" zPosition="1"/>
 		<widget name="stationmenu" scrollbarMode="showOnDemand" font="Regular;36" position="135,165" size="1650,750" transparent="1"/>
@@ -518,7 +518,7 @@
 
 	<screen flags="wfNoBorder" name="ConfigListScreen" position="fill" title="Add to Favorites">
 		<panel name="PigTemplate"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/blue.png" alphatest="on" position="1500,1030" size="34,34"/>
+		<ePixmap pixmap="FullNightHD/buttons/blue.png" alphatest="on" position="1500,1030" size="34,34"/>
 		<widget name="ButtonBluetext" backgroundColor="secondBG" font="Regular;34" halign="left" position="1522,1030" size="370,38" transparent="1" zPosition="1"/>
 		<widget name="stationmenu" scrollbarMode="showOnDemand" font="Regular;33" position="780,100" size="1110,912" transparent="1"/>
 	</screen>
@@ -527,7 +527,7 @@
 
  <screen flags="wfNoBorder" name="TVChartsMain" position="fill" title="TV Charts">
 		<panel name="PigTemplate"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/key_info.png" alphatest="on" position="97,1030" size="52,38"/>
+		<ePixmap pixmap="FullNightHD/buttons/key_info.png" alphatest="on" position="97,1030" size="52,38"/>
 		<eLabel text="'OK' = ZAP" backgroundColor="secondBG" font="Regular;33" halign="left" position="600,877" size="225,39" transparent="1" zPosition="1"/>
 		<widget name="info" font="Regular;33" position="30,600" size="720,232" transparent="1"/>
 		<widget name="channellist" scrollbarMode="showOnDemand" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" transparent="1"/>
@@ -537,8 +537,8 @@
 
 	<screen flags="wfNoBorder" name="GoogleMapsConfigScreen" position="fill" title="GoogleMaps Setup">
 		<panel name="PigTemplate"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/red.png" alphatest="on" position="192,1030" size="34,34"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/green.png" alphatest="on" position="628,1030" size="34,34"/>
+		<ePixmap pixmap="FullNightHD/buttons/red.png" alphatest="on" position="192,1030" size="34,34"/>
+		<ePixmap pixmap="FullNightHD/buttons/green.png" alphatest="on" position="628,1030" size="34,34"/>
 		<widget name="buttonred" backgroundColor="secondBG" font="Regular;34" halign="left" position="242,1030" size="370,38" transparent="1" zPosition="1"/>
 		<widget name="buttongreen" backgroundColor="secondBG" font="Regular;34" halign="left" position="678,1030" size="370,38" transparent="1" zPosition="1"/>
 		<widget name="config" scrollbarMode="showOnDemand" itemHeight="38" font="Regular;28" position="780,100" size="1110,912" transparent="1"/>
@@ -675,8 +675,8 @@
 
 	<screen flags="wfNoBorder" name="DeviceBrowser" position="fill" title="DeviceBrowser">
 		<panel name="PigTemplate"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/red.png" alphatest="on" position="192,1030" size="34,34"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/green.png" alphatest="on" position="628,1030" size="34,34"/>
+		<ePixmap pixmap="FullNightHD/buttons/red.png" alphatest="on" position="192,1030" size="34,34"/>
+		<ePixmap pixmap="FullNightHD/buttons/green.png" alphatest="on" position="628,1030" size="34,34"/>
 		<widget name="key_r" backgroundColor="secondBG" font="Regular;34" halign="left" position="242,1030" size="370,38" transparent="1" zPosition="1"/>
 		<widget name="key_g" backgroundColor="secondBG" font="Regular;34" halign="left" position="678,1030" size="370,38" transparent="1" zPosition="1"/>
 		<widget name="filelist" itemHeight="38" font="Regular;28" position="780,100" size="1110,912" transparent="1" scrollbarMode="showOnDemand"/>
@@ -757,8 +757,8 @@
 		<widget font="Regular;30" halign="left" name="published" position="127,615" size="300,36" transparent="1" valign="top" zPosition="10"/>
 		<widget font="Regular;30" halign="right" name="views" position="367,615" size="390,36" transparent="1" valign="top" zPosition="10"/>
 		<widget font="Regular;30" halign="left" name="tags" position="127,660" size="622,172" transparent="1" valign="top" zPosition="10"/>
-		<widget alphatest="on" name="starsbg" pixmap="PLi-FullNightHD-Mod-M/dvr/starsbar_empty.png" position="127,840" size="157,30" transparent="1" zPosition="5"/>
-		<widget name="stars" pixmap="PLi-FullNightHD-Mod-M/dvr/starsbar_filled.png" position="127,840" size="157,30" transparent="1" zPosition="6"/>
+		<widget alphatest="on" name="starsbg" pixmap="FullNightHD/dvr/starsbar_empty.png" position="127,840" size="157,30" transparent="1" zPosition="5"/>
+		<widget name="stars" pixmap="FullNightHD/dvr/starsbar_filled.png" position="127,840" size="157,30" transparent="1" zPosition="6"/>
 		<widget font="Regular;30" halign="left" name="detailtext" position="780,225" size="1005,487" transparent="1" valign="top" zPosition="10"/>
 	</screen>
 
@@ -819,11 +819,11 @@
 	<screen flags="wfNoBorder" name="meteoViewer" position="fill" title="meteoViewer">
 		<panel name="PigTemplate"/>
 		<panel name="KeyMenuTemplate"/>
-		<ePixmap position="1341,164" size="18,10" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/MeteoViewer/pictures/top.png" zPosition="4" alphatest="on"/>
-		<ePixmap position="1341,831" size="18,10" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/MeteoViewer/pictures/bottom.png" zPosition="4" alphatest="on"/>
-		<ePixmap position="899,494" size="10,18" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/MeteoViewer/pictures/left.png" zPosition="4" alphatest="on"/>
-		<ePixmap position="1791,494" size="10,18" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/MeteoViewer/pictures/right.png" zPosition="4" alphatest="on"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/key_tv.png" position="900,867" size="52,38" alphatest="on"/>
+		<ePixmap position="1341,164" size="18,10" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/MeteoViewer/pictures/top.png" zPosition="4" alphatest="on"/>
+		<ePixmap position="1341,831" size="18,10" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/MeteoViewer/pictures/bottom.png" zPosition="4" alphatest="on"/>
+		<ePixmap position="899,494" size="10,18" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/MeteoViewer/pictures/left.png" zPosition="4" alphatest="on"/>
+		<ePixmap position="1791,494" size="10,18" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/MeteoViewer/pictures/right.png" zPosition="4" alphatest="on"/>
+		<ePixmap pixmap="FullNightHD/buttons/key_tv.png" position="900,867" size="52,38" alphatest="on"/>
 		<eLabel text="- Synaptic" position="960,870" size="300,45" backgroundColor="secondBG" font="Regular;27" halign="left" transparent="1" zPosition="1"/>
 		<widget name="frames" position="900,165" size="900,675" zPosition="1" alphatest="blend"/>
 		<widget name="border" position="900,165" zPosition="2" size="900,675" alphatest="blend"/>
@@ -844,7 +844,7 @@
 	<screen name="CSFD" position="fill" title="Filmová databáze CSFD" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="KeyMenuInfoTemplate"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/key_text.png" position="30,1031" size="52,38" zPosition="3" alphatest="on"/>
+		<ePixmap pixmap="FullNightHD/buttons/key_text.png" position="30,1031" size="52,38" zPosition="3" alphatest="on"/>
 		<widget name="titellabel" position="780,105" size="880,42" valign="center" font="Regular;33" foregroundColor="#ff0000" backgroundColor="black" transparent="1"/>
 		<widget name="sortlabel" position="780,150" size="795,42" font="Regular;28" foregroundColor="blue" backgroundColor="black" transparent="1"/>
 		<widget name="detailslabel" position="1050,184" size="840,342" zPosition="1" transparent="1" itemHeight="38" font="Regular;30" halign="block"/>
@@ -857,22 +857,22 @@
 		<widget name="servicemenuTop" position="30,540" size="720,30" halign="center" backgroundColor="black" foregroundColor="yellow" font="Regular;24" zPosition="4"/>
 		<widget name="servicemenu" position="30,570" size="720,380" itemHeight="38" font="Regular;28" zPosition="5" transparent="0" scrollbarMode="showOnDemand" enableWrapAround="1"/>
 		<widget name="ratinglabel" position="1570,141" size="320,33" halign="right" font="Regular;31" foregroundColor="#f0b400" backgroundColor="black" transparent="1"/>
-		<widget name="starsbg" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/starsbar_empty.png" position="1680,108" zPosition="0" size="210,21" transparent="1" alphatest="on"/>
-		<widget name="stars" position="1680,108" size="210,21" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/starsbar_filled.png" transparent="1"/>
-		<widget name="starsbg0" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/starsbar_empty_0.png" position="1680,108" zPosition="1" size="210,21" transparent="1" alphatest="on"/>
-		<widget name="stars0" position="1680,108" size="210,21" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/starsbar_filled_0.png" transparent="1"/>
-		<widget name="starsbg50" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/starsbar_empty_50.png" position="1680,108" zPosition="1" size="210,21" transparent="1" alphatest="on"/>
-		<widget name="stars50" position="1680,108" size="210,21" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/starsbar_filled_50.png" transparent="1"/>
-		<widget name="starsbg100" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/starsbar_empty_100.png" position="1680,108" zPosition="1" size="210,21" transparent="1" alphatest="on"/>
-		<widget name="stars100" position="1680,108" size="210,21" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/starsbar_filled_100.png" transparent="1"/>
-		<widget name="pageb1" pixmap="PLi-FullNightHD-Mod-M/buttons/key_1.png" position="1110,978" size="52,38" zPosition="3" alphatest="on"/>
-		<widget name="pageb3" pixmap="PLi-FullNightHD-Mod-M/buttons/key_3.png" position="1462,978" size="52,38" zPosition="3" alphatest="on"/>
-		<widget name="paget1" pixmap="PLi-FullNightHD-Mod-M/buttons/key_left.png" position="1162,978" size="52,38" zPosition="3" alphatest="on"/>
-		<widget name="paget3" pixmap="PLi-FullNightHD-Mod-M/buttons/key_right.png" position="1515,978" size="52,38" zPosition="3" alphatest="on"/>
+		<widget name="starsbg" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/starsbar_empty.png" position="1680,108" zPosition="0" size="210,21" transparent="1" alphatest="on"/>
+		<widget name="stars" position="1680,108" size="210,21" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/starsbar_filled.png" transparent="1"/>
+		<widget name="starsbg0" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/starsbar_empty_0.png" position="1680,108" zPosition="1" size="210,21" transparent="1" alphatest="on"/>
+		<widget name="stars0" position="1680,108" size="210,21" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/starsbar_filled_0.png" transparent="1"/>
+		<widget name="starsbg50" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/starsbar_empty_50.png" position="1680,108" zPosition="1" size="210,21" transparent="1" alphatest="on"/>
+		<widget name="stars50" position="1680,108" size="210,21" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/starsbar_filled_50.png" transparent="1"/>
+		<widget name="starsbg100" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/starsbar_empty_100.png" position="1680,108" zPosition="1" size="210,21" transparent="1" alphatest="on"/>
+		<widget name="stars100" position="1680,108" size="210,21" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/starsbar_filled_100.png" transparent="1"/>
+		<widget name="pageb1" pixmap="FullNightHD/buttons/key_1.png" position="1110,978" size="52,38" zPosition="3" alphatest="on"/>
+		<widget name="pageb3" pixmap="FullNightHD/buttons/key_3.png" position="1462,978" size="52,38" zPosition="3" alphatest="on"/>
+		<widget name="paget1" pixmap="FullNightHD/buttons/key_left.png" position="1162,978" size="52,38" zPosition="3" alphatest="on"/>
+		<widget name="paget3" pixmap="FullNightHD/buttons/key_right.png" position="1515,978" size="52,38" zPosition="3" alphatest="on"/>
 		<widget name="page" position="1230,976" size="217,42" font="Regular;33" foregroundColor="yellow" valign="center" halign="center" zPosition="2" transparent="1"/>
 		<widget name="tips_label" position="30,750" size="90,30" font="Regular;24" backgroundColor="black" halign="left" zPosition="3" transparent="1"/>
 		<widget name="tips_detail" position="30,787" size="720,56" font="Regular;24" backgroundColor="black" halign="left" zPosition="3" transparent="1"/>
-		<widget name="tips_icon" pixmap="PLi-FullNightHD-Mod-M/buttons/key_help.png" position="30,784" alphatest="off" size="48,36" backgroundColor="black" zPosition="3"/>
+		<widget name="tips_icon" pixmap="FullNightHD/buttons/key_help.png" position="30,784" alphatest="off" size="48,36" backgroundColor="black" zPosition="3"/>
 	</screen>
 
 	<screen name="CSFDAbout" position="fill" title="Informace o pluginu CSFD" flags="wfNoBorder">
@@ -893,7 +893,7 @@
 		<panel name="ButtonYellow"/>
 		<widget name="header" position="780,105" size="1110,45" font="Regular;36" transparent="1" noWrap="1" halign="left"/>
 		<widget name="text" position="780,180" size="945,69" font="Regular;39" transparent="1" noWrap="1" halign="right"/>
-		<widget name="list" position="915,285" size="840,337" selectionDisabled="1" transparent="1" selectionpixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/selected-menu.png"/>
+		<widget name="list" position="915,285" size="840,337" selectionDisabled="1" transparent="1" selectionpixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/CSFD/icons/selected-menu.png"/>
 		<widget name="countryFlag" position="1042,930" size="90,60" backgroundColor="#31000000" alphatest="on"/>
 		<eLabel text="Změna jazyka" position="1117,1030" size="345,37" font="Regular;36" backgroundColor="#31000000" transparent="1"/>
 	</screen>
@@ -930,7 +930,7 @@
 	</screen>
 
 	<screen name="CSFDPlayer" position="0,787" size="1920,271" title="InfoBar" backgroundColor="#ff000000" flags="wfNoBorder">
-		<ePixmap position="0,0" zPosition="-10" size="1920,271" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/CSFD/back-media-dvd.png" transparent="1"/>
+		<ePixmap position="0,0" zPosition="-10" size="1920,271" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/CSFD/back-media-dvd.png" transparent="1"/>
 		<widget source="global.CurrentTime" render="Label" position="1485,172" size="154,36" font="Regular;27" valign="top" halign="right" backgroundColor="#00333333" foregroundColor="#00cccccc" transparent="1">
 	<convert type="ClockToText">Default</convert>
 		</widget>
@@ -943,8 +943,8 @@
 		<widget source="session.CurrentService" render="Label" position="75,48" size="1770,45" font="Regular;39" halign="center" backgroundColor="#353e575e" shadowColor="#1A58A6" shadowOffset="-2,-1" transparent="1">
 	<convert type="ServiceName">Name</convert>
 		</widget>
-		<ePixmap position="165,123" size="231,90" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/CSFD/csfdplayerlogo.png" zPosition="1" alphatest="on"/>
-		<ePixmap position="510,135" size="900,24" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/CSFD/mpslider.png" zPosition="3" alphatest="on"/>
+		<ePixmap position="165,123" size="231,90" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/CSFD/csfdplayerlogo.png" zPosition="1" alphatest="on"/>
+		<ePixmap position="510,135" size="900,24" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/CSFD/mpslider.png" zPosition="3" alphatest="on"/>
 		<widget source="session.CurrentService" render="PositionGauge" position="540,136" size="840,21" zPosition="2" pointer="/usr/lib/enigma2/python/Plugins/Extensions/CSFD/pointer.png:13,3">
 	<convert type="ServicePosition">Gauge</convert>
 		</widget>
@@ -1011,7 +1011,7 @@
 	<screen name="xpowerHelp" position="fill" title="XPower Help" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<widget name="HelpScrollLabel" position="780,105" size="1110,600" font="Regular;30" scrollbarMode="showOnDemand"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/~/img/author.png" position="780,828" zPosition="10" size="37,37"/>
+		<ePixmap pixmap="FullNightHD/~/img/author.png" position="780,828" zPosition="10" size="37,37"/>
 		<widget name="version" position="840,832" size="630,30" font="Regular;27"/>
 		<widget name="statusbar" position="780,975" size="1110,34" font="Regular;30"/>
 	</screen>
@@ -1031,11 +1031,11 @@
 		<widget name="statusbar" position="1260,420" size="630,34" font="Regular;30"/>
 		<widget name="devices" position="780,510" size="330,37" font="Regular;30"/>
 		<widget name="mounted" position="1260,510" size="630,180" font="Regular;30"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/~/author.png" position="280,980" zPosition="2" size="37,37"/>
+		<ePixmap pixmap="FullNightHD/~/author.png" position="280,980" zPosition="2" size="37,37"/>
 		<widget name="version" position="330,983" size="150,30" zPosition="2" foregroundColor="white" font="Regular;24"/>
 		<widget name="process" position="780,450" size="135,37" font="Regular;30"/>
-		<widget name="daemon0" alphatest="on" pixmap="PLi-FullNightHD-Mod-M/buttons/button_green_off.png" position="960,460" size="22,24" zPosition="10" transparent="1"/>
-		<widget name="daemon1" alphatest="on" pixmap="PLi-FullNightHD-Mod-M/buttons/button_green.png" position="960,460" size="22,24" zPosition="10" transparent="1"/>
+		<widget name="daemon0" alphatest="on" pixmap="FullNightHD/buttons/button_green_off.png" position="960,460" size="22,24" zPosition="10" transparent="1"/>
+		<widget name="daemon1" alphatest="on" pixmap="FullNightHD/buttons/button_green.png" position="960,460" size="22,24" zPosition="10" transparent="1"/>
 		<widget name="0" pixmaps="buttons/button_green_off.png,buttons/button_green.png" position="780,116" zPosition="10" size="22,24" transparent="1" alphatest="on"/>
 		<widget name="1" pixmaps="buttons/button_blue_off.png,buttons/button_blue.png" position="780,154" zPosition="10" size="22,24" transparent="1" alphatest="on"/>
 		<widget name="2" pixmaps="buttons/button_blue_off.png,buttons/button_blue.png" position="780,192" zPosition="10" size="22,24" transparent="1" alphatest="on"/>
@@ -1058,7 +1058,7 @@
 		<widget name="orbital" position="945,270" zPosition="2" size="150,37" valign="center" halign="left" font="Regular;30" foregroundColor="white"/>
 		<widget name="provider" position="945,315" zPosition="2" size="645,37" valign="center" halign="left" font="Regular;30" foregroundColor="white"/>
 		<widget name="text" position="945,420" zPosition="2" size="810,37" valign="center" halign="left" font="Regular;27" foregroundColor="white"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/~/img/borderhd.png" position="1267,472" zPosition="1" size="165,128"/>
+		<ePixmap pixmap="FullNightHD/~/img/borderhd.png" position="1267,472" zPosition="1" size="165,128"/>
 		<widget name="picon2l" position="945,480" zPosition="2" size="150,112" alphatest="on"/>
 		<widget name="picon1l" position="1110,480" zPosition="2" size="150,112" alphatest="on"/>
 		<widget name="picon" position="1275,480" zPosition="2" size="150,112" alphatest="on"/>
@@ -1137,7 +1137,7 @@
 	<!-- BitrateViewer -->
 
 	<screen name="BitrateViewer" backgroundColor="transparent" position="1380,510" size="510,285" title="Bitrate viewer" flags="wfNoBorder">
-		<ePixmap alphatest="off" pixmap="PLi-FullNightHD-Mod-M/infobar/hd.png" position="0,0" size="510,285" zPosition="-1"/>
+		<ePixmap alphatest="off" pixmap="FullNightHD/infobar/hd.png" position="0,0" size="510,285" zPosition="-1"/>
 		<eLabel text="Video" position="15,15" zPosition="1" size="120,39" font="Regular;33" transparent="1" foregroundColor="secondFG"/>
 		<eLabel text="min" position="15,60" zPosition="1" size="120,39" font="Regular;33" transparent="1" foregroundColor="secondFG"/>
 		<widget name="vmin" position="15,105" size="120,39" font="Regular;33" transparent="1"/>
@@ -1300,7 +1300,7 @@
 		<eLabel text="Welcome..." position="30,7" size="1830,75" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;36" valign="center" halign="left"/>
 		<widget name="rc" position="1623,148" size="231,750" zPosition="10" pixmaps="rc.png,rcold.png" alphatest="on"/>
 		<widget name="text" position="780,105" size="830,495" font="Regular;32"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/red.png" position="815,485" size="34,34" alphatest="on"/>
+		<ePixmap pixmap="FullNightHD/buttons/red.png" position="815,485" size="34,34" alphatest="on"/>
 		<widget name="languagetext" position="877,486" size="165,38" font="Regular;34"/>
 		<widget source="list" render="Listbox" position="815,661" size="735,266" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
@@ -1312,8 +1312,8 @@
 			</convert>
 		</widget>
 		<widget name="config" position="30,655" size="720,266" itemHeight="38" font="Regular;28" transparent="1" zPosition="1" scrollbarMode="showOnDemand"/>
-		<widget name="wizard" pixmap="PLi-FullNightHD-Mod-M/wizard.png" position="811,165" size="165,261" zPosition="10" alphatest="on"/>
-		<widget name="HelpWindow" pixmap="PLi-FullNightHD-Mod-M/buttons/key_text.png" position="810,660" zPosition="1" size="1,1" transparent="1" alphatest="on"/>
+		<widget name="wizard" pixmap="FullNightHD/wizard.png" position="811,165" size="165,261" zPosition="10" alphatest="on"/>
+		<widget name="HelpWindow" pixmap="FullNightHD/buttons/key_text.png" position="810,660" zPosition="1" size="1,1" transparent="1" alphatest="on"/>
 	</screen>
 
 	<screen name="AutoTimer" title="Auto Timer" position="fill" flags="wfNoBorder">
@@ -1428,12 +1428,12 @@
 	</screen>
 
 	<screen name="VideoEnhancementPreview" position="fill" title="VideoEnhancementPreview" flags="wfNoBorder" backgroundColor="transparent">
-		<ePixmap alphatest="blend" pixmap="PLi-FullNightHD-Mod-M/infobar/bl80.png" position="0,945" size="1920,135" zPosition="-1"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/border/smallshadowline.png" position="0,945" size="1920,3"/>
+		<ePixmap alphatest="blend" pixmap="FullNightHD/infobar/bl80.png" position="0,945" size="1920,135" zPosition="-1"/>
+		<ePixmap pixmap="FullNightHD/border/smallshadowline.png" position="0,945" size="1920,3"/>
 		<widget source="key_red" render="Label" position="242,1030" size="370,38" backgroundColor="black" zPosition="2" transparent="1" font="Regular;34" halign="left"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/red.png" position="192,1032" size="34,34" zPosition="1" alphatest="blend"/>
+		<ePixmap pixmap="FullNightHD/buttons/red.png" position="192,1032" size="34,34" zPosition="1" alphatest="blend"/>
 		<widget source="key_green" render="Label" position="242,962" size="370,38" backgroundColor="black" zPosition="2" transparent="1" font="Regular;34" halign="left"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/buttons/green.png" position="192,964" size="34,34" zPosition="1" alphatest="blend"/>
+		<ePixmap pixmap="FullNightHD/buttons/green.png" position="192,964" size="34,34" zPosition="1" alphatest="blend"/>
 		<widget name="config" position="780,952" size="1110,76" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand" backgroundColor="black" zPosition="1"/>
 		<widget source="introduction" render="Label" position="780,1035" size="1110,34" zPosition="1" font="Regular;30" halign="center" transparent="1"/>
 	</screen>
@@ -1492,7 +1492,7 @@
 
 	<screen name="ModifyPLiFullHD" position="fill" title="Modify PLi-FullHD - setup font and colors">
 		<panel name="PigTemplate"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/ModifyPLiFullHD/png/help.png" position="30,540" size="720,405" zPosition="2"/>
+		<ePixmap pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/ModifyPLiFullHD/png/help.png" position="30,540" size="720,405" zPosition="2"/>
 		<widget name="config" position="780,105" size="1110,760" itemHeight="38" font="Regular;28" zPosition="1" scrollbarMode="showOnDemand"/>
 		<widget name="info" position="780,975" size="1100,37" font="Regular;32" foregroundColor="foreground" halign="center"/>
 	</screen>
@@ -1793,8 +1793,8 @@
 	<screen name="IMDB" position="fill" flags="wfNoBorder" title="Internet Movie Database Details Plugin">
 		<panel name="SelectionTemplate"/>
 		<panel name="KeyMenuTemplate"/>
-		<widget name="starsbg" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/IMDb/starsbar_empty.png" position="223,570" size="315,31" zPosition="2" alphatest="blend"/>
-		<widget name="stars" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/IMDb/starsbar_filled.png" position="223,570" size="315,31" zPosition="3" transparent="1"/>
+		<widget name="starsbg" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/IMDb/starsbar_empty.png" position="223,570" size="315,31" zPosition="2" alphatest="blend"/>
+		<widget name="stars" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/IMDb/starsbar_filled.png" position="223,570" size="315,31" zPosition="3" transparent="1"/>
 		<widget name="ratinglabel" position="7,615" size="765,75" font="Regular;30" foregroundColor="grey" halign="center"/>
 		<widget name="titellabel" position="7,695" size="765,100" font="Regular;30" foregroundColor="secondFG" halign="center"/>
 		<widget name="statusbar" position="7,900" size="765,110" font="Regular;27" halign="center" valign="bottom"/>
@@ -1816,8 +1816,8 @@
 		<panel name="KeyMenuTemplate"/>
 		<panel name="KeyInfoTemplate"/>
 		<widget name="title" position="7,570" size="715,45" font="RegularSmall;30" foregroundColor="secondFG" halign="center"/>
-		<widget alphatest="blend" name="starsbg" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/TMBD/starsbar_empty.png" position="265,640" size="315,31" zPosition="2" />
-		<widget name="stars" pixmap="PLi-FullNightHD-Mod-M//usr/lib/enigma2/python/Plugins/Extensions/TMBD/starsbar_filled.png" position="265,640"  size="315,31" transparent="1" zPosition="3" />
+		<widget alphatest="blend" name="starsbg" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/TMBD/starsbar_empty.png" position="265,640" size="315,31" zPosition="2" />
+		<widget name="stars" pixmap="FullNightHD//usr/lib/enigma2/python/Plugins/Extensions/TMBD/starsbar_filled.png" position="265,640"  size="315,31" transparent="1" zPosition="3" />
 		<widget name="ratinglabel" position="7,675" size="715,36" font="Regular;30" foregroundColor="grey" halign="center"/>
 		<widget name="voteslabel" position="7,730" size="715,36" font="Regular;30" foregroundColor="grey" halign="center"/>
 		<widget name="statusbar" position="7,950" size="715,45" font="Regular;30" halign="center" valign="bottom"/>
@@ -1993,7 +1993,7 @@
 		<widget name="help" position="30,600" size="720,99" font="Regular;28" foregroundColor="darkgrey" />
 		<widget name="address" position="780,371" size="555,38" zPosition="1" font="Regular;30" foregroundColor="blue"/>
 		<widget name="sendto" position="1335,371" size="555,38" zPosition="1" font="Regular;30" foregroundColor="blue"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/border/smallshadowline.png" position="780,410" size="1110,3" zPosition="2"/>
+		<ePixmap pixmap="FullNightHD/border/smallshadowline.png" position="780,410" size="1110,3" zPosition="2"/>
 		<widget name="ltx" position="780,415" size="60,38" zPosition="1" font="Regular;28" halign="left" foregroundColor="green"/>
 		<widget name="txtext" position="840,415" size="495,570" zPosition="1" font="Regular;28" halign="left"/>
 		<widget name="lrx" position="1335,415" size="60,38" zPosition="1" font="Regular;28" halign="left" foregroundColor="red"/>
@@ -2088,7 +2088,7 @@
 		<panel name="KeyChannelTemplate"/>
 		<panel name="KeyMenuTemplate"/>
 		<panel name="KeyInfoTemplate"/>
-		<ePixmap pixmap="PLi-FullNightHD-Mod-M/dvr/scale1024.png" position="30,538" size="720,12" zPosition="1"/>
+		<ePixmap pixmap="FullNightHD/dvr/scale1024.png" position="30,538" size="720,12" zPosition="1"/>
 		<widget source="session.CurrentService" render="PositionGauge" position="30,535" size="720,18" transparent="1" zPosition="4" pointer="dvr/position_pointer1.png:720,4">
 			<convert type="ServicePosition">Gauge</convert>
 		</widget>
@@ -2275,19 +2275,19 @@
 
 	<!-- File Commander -->
 	<screen name="FileCommanderButtons">
-		<widget objectTypes="key_red,StaticText" source="key_red" render="Pixmap" pixmap="PLi-FullNightHD-Mod-M/buttons/red.png" position="105,855" size="38,38" zPosition="1" alphatest="blend">
+		<widget objectTypes="key_red,StaticText" source="key_red" render="Pixmap" pixmap="FullNightHD/buttons/red.png" position="105,855" size="38,38" zPosition="1" alphatest="blend">
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<widget objectTypes="key_red,StaticText" source="key_red" render="Label" position="150,855" size="390,38" backgroundColor="black" zPosition="2" transparent="1" font="Regular;34" halign="left"/>
-		<widget objectTypes="key_green,StaticText" source="key_green" render="Pixmap" pixmap="PLi-FullNightHD-Mod-M/buttons/green.png" position="548,855" size="38,38" zPosition="1" alphatest="blend">
+		<widget objectTypes="key_green,StaticText" source="key_green" render="Pixmap" pixmap="FullNightHD/buttons/green.png" position="548,855" size="38,38" zPosition="1" alphatest="blend">
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<widget objectTypes="key_green,StaticText" source="key_green" render="Label" position="593,855" size="390,38" backgroundColor="black" zPosition="2" transparent="1" font="Regular;34" halign="left"/>
-		<widget objectTypes="key_yellow,StaticText" source="key_yellow" render="Pixmap" pixmap="PLi-FullNightHD-Mod-M/buttons/yellow.png" position="990,855" size="38,38" zPosition="1" alphatest="blend">
+		<widget objectTypes="key_yellow,StaticText" source="key_yellow" render="Pixmap" pixmap="FullNightHD/buttons/yellow.png" position="990,855" size="38,38" zPosition="1" alphatest="blend">
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<widget objectTypes="key_yellow,StaticText" source="key_yellow" render="Label" position="1035,855" size="390,38" backgroundColor="black" zPosition="2" transparent="1" font="Regular;34" halign="left"/>
-		<widget objectTypes="key_blue,StaticText" source="key_blue" render="Pixmap" pixmap="PLi-FullNightHD-Mod-M/buttons/blue.png" position="1433,855" size="38,38" zPosition="1" alphatest="blend">
+		<widget objectTypes="key_blue,StaticText" source="key_blue" render="Pixmap" pixmap="FullNightHD/buttons/blue.png" position="1433,855" size="38,38" zPosition="1" alphatest="blend">
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<widget objectTypes="key_blue,StaticText" source="key_blue" render="Label" position="1478,855" size="390,38" backgroundColor="black" zPosition="2" transparent="1" font="Regular;34" halign="left"/>
@@ -2413,7 +2413,7 @@
 				}
 			</convert>
 		</widget>
-		<ePixmap position="15,795" size="210,60" pixmap="PLi-FullNightHD-Mod-M/buttons/red.png" transparent="1" alphatest="on" />
+		<ePixmap position="15,795" size="210,60" pixmap="FullNightHD/buttons/red.png" transparent="1" alphatest="on" />
 		<panel name="FileCommanderButtons"/>
 	</screen>
 
