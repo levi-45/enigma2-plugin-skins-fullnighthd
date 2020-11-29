@@ -887,7 +887,7 @@
     <eLabel position="center,0" size="1920,87" backgroundColor="toptemplatecolor" />
     <ePixmap pixmap="FullNightHD/buttons/key_exit.png" alphatest="blend" position="85,1031" size="52,38" />
     <ePixmap pixmap="FullNightHD/buttons/key_ok.png" alphatest="blend" position="30,1031" size="52,38" />
-    <eLabel text="FullNightHD - OpenTR-7.2 - Levi45 - From - https://sat-linux.com" position="596,1033" size="1300,38" font="Regular; 30" halign="right" backgroundColor="black" transparent="1" foregroundColor="blue" zPosition="8" />
+    <eLabel text="FullNightHD - OpenTR-8.0 - Levi45 - From - https://satellite-forum.com" position="596,1033" size="1300,38" font="Regular; 30" halign="right" backgroundColor="black" transparent="1" foregroundColor="blue" zPosition="8" />
     <widget source="session.CurrentService" render="Label" position="980,942" size="700,50" font="Regular; 28" halign="left" valign="center" transparent="1" zPosition="6" backgroundColor="background">
       <convert type="MambasHDCpuUsage">CPU:$0 (Core 1: $1, Core 2: $2)</convert>
     </widget>
@@ -944,7 +944,7 @@
     <eLabel position="center,0" size="1920,87" backgroundColor="toptemplatecolor" />
     <ePixmap pixmap="FullNightHD/buttons/key_exit.png" alphatest="blend" position="85,1031" size="52,38" />
     <ePixmap pixmap="FullNightHD/buttons/key_ok.png" alphatest="blend" position="30,1031" size="52,38" />
-    <eLabel text="FullNightHD - OpenTR-7.2 - Levi45 - From - https://sat-linux.com" position="596,1033" size="1300,38" font="Regular; 30" halign="right" backgroundColor="black" transparent="1" foregroundColor="blue" zPosition="8" />
+    <eLabel text="FullNightHD - OpenTR-8.0 - Levi45 - From - https://satellite-forum.com" position="596,1033" size="1300,38" font="Regular; 30" halign="right" backgroundColor="black" transparent="1" foregroundColor="blue" zPosition="8" />
     <widget source="session.CurrentService" render="Label" position="980,942" size="700,50" font="Regular; 28" halign="left" valign="center" transparent="1" zPosition="6" backgroundColor="background">
       <convert type="MambasHDCpuUsage">CPU:$0 (Core 1: $1, Core 2: $2)</convert>
     </widget>
@@ -1006,7 +1006,7 @@
     <eLabel position="center,0" size="1920,87" backgroundColor="toptemplatecolor" />
     <ePixmap pixmap="FullNightHD/buttons/key_exit.png" alphatest="blend" position="85,1031" size="52,38" />
     <ePixmap pixmap="FullNightHD/buttons/key_ok.png" alphatest="blend" position="30,1031" size="52,38" />
-    <eLabel text="FullNightHD - OpenTR-7.2 - Levi45 - From - https://sat-linux.com" position="596,1033" size="1300,38" font="Regular; 30" halign="right" backgroundColor="black" transparent="1" foregroundColor="blue" zPosition="8" />
+    <eLabel text="FullNightHD - OpenTR-8.0 - Levi45 - From - https://satellite-forum.com" position="596,1033" size="1300,38" font="Regular; 30" halign="right" backgroundColor="black" transparent="1" foregroundColor="blue" zPosition="8" />
     <widget source="session.CurrentService" render="Label" position="980,942" size="700,50" font="Regular; 28" halign="left" valign="center" transparent="1" zPosition="6" backgroundColor="background">
       <convert type="MambasHDCpuUsage">CPU:$0 (Core 1: $1, Core 2: $2)</convert>
     </widget>
@@ -1063,7 +1063,7 @@
     <eLabel position="center,0" size="1920,87" backgroundColor="toptemplatecolor" />
     <ePixmap pixmap="FullNightHD/buttons/key_exit.png" alphatest="blend" position="85,1031" size="52,38" />
     <ePixmap pixmap="FullNightHD/buttons/key_ok.png" alphatest="blend" position="30,1031" size="52,38" />
-    <eLabel text="FullNightHD - OpenTR-7.2 - Levi45 - From - https://sat-linux.com" position="596,1033" size="1300,38" font="Regular; 30" halign="right" backgroundColor="black" transparent="1" foregroundColor="blue" zPosition="8" />
+    <eLabel text="FullNightHD - OpenTR-8.0 - Levi45 - From - https://satellite-forum.com" position="596,1033" size="1300,38" font="Regular; 30" halign="right" backgroundColor="black" transparent="1" foregroundColor="blue" zPosition="8" />
     <widget source="session.CurrentService" render="Label" position="980,942" size="700,50" font="Regular; 28" halign="left" valign="center" transparent="1" zPosition="6" backgroundColor="background">
       <convert type="MambasHDCpuUsage">CPU:$0 (Core 1: $1, Core 2: $2)</convert>
     </widget>
@@ -1120,7 +1120,7 @@
     <eLabel position="center,0" size="1920,87" backgroundColor="toptemplatecolor" />
     <ePixmap pixmap="FullNightHD/buttons/key_exit.png" alphatest="blend" position="85,1031" size="52,38" />
     <ePixmap pixmap="FullNightHD/buttons/key_ok.png" alphatest="blend" position="30,1031" size="52,38" />
-    <eLabel text="FullNightHD - OpenTR-7.2 - Levi45 - From - https://sat-linux.com" position="596,1033" size="1300,38" font="Regular; 30" halign="right" backgroundColor="black" transparent="1" foregroundColor="blue" zPosition="8" />
+    <eLabel text="FullNightHD - OpenTR-8.0 - Levi45 - From - https://satellite-forum.com" position="596,1033" size="1300,38" font="Regular; 30" halign="right" backgroundColor="black" transparent="1" foregroundColor="blue" zPosition="8" />
     <widget source="session.CurrentService" render="Label" position="980,942" size="700,50" font="Regular; 28" halign="left" valign="center" transparent="1" zPosition="6" backgroundColor="background">
       <convert type="MambasHDCpuUsage">CPU:$0 (Core 1: $1, Core 2: $2)</convert>
     </widget>
@@ -1177,7 +1177,7 @@
     <eLabel position="center,0" size="1920,87" backgroundColor="toptemplatecolor" />
     <ePixmap pixmap="FullNightHD/buttons/key_exit.png" alphatest="blend" position="85,1031" size="52,38" />
     <ePixmap pixmap="FullNightHD/buttons/key_ok.png" alphatest="blend" position="30,1031" size="52,38" />
-    <eLabel text="FullNightHD - OpenTR-7.2 - Levi45 - From - https://sat-linux.com" position="596,1033" size="1300,38" font="Regular; 30" halign="right" backgroundColor="black" transparent="1" foregroundColor="blue" zPosition="8" />
+    <eLabel text="FullNightHD - OpenTR-8.0 - Levi45 - From - https://satellite-forum.com" position="596,1033" size="1300,38" font="Regular; 30" halign="right" backgroundColor="black" transparent="1" foregroundColor="blue" zPosition="8" />
     <widget source="session.CurrentService" render="Label" position="980,942" size="700,50" font="Regular; 28" halign="left" valign="center" transparent="1" zPosition="6" backgroundColor="background">
       <convert type="MambasHDCpuUsage">CPU:$0 (Core 1: $1, Core 2: $2)</convert>
     </widget>
