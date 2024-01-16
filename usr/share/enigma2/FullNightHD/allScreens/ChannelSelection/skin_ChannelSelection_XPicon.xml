@@ -1,0 +1,64 @@
+<screen name="ChannelSelection" position="center,center" size="1920,1081" title=" " flags="wfNoBorder" backgroundColor="background">
+  <widget name="list" position="15,105" size="1120,900" itemHeight="45" transparent="1" serviceNumberFont="Regular;32" scrollbarMode="showOnDemand" scrollbarWidth="10" serviceInfoFont="Regular;28" serviceNameFont="Regular;30" serviceItemHeight="45" picServiceEventProgressbar="FullNightHD/window/progressb.png" progressbarHeight="15" progressBarWidth="70" progressPercentWidth="80" colorEventProgressbarBorder="un33333a" fieldMargins="15" nonplayableMargins="15" colorEventProgressbarBorderSelected="darkgrey" colorServiceDescription="grey" colorServiceDescriptionSelected="foreground" progressbarBorderWidth="2" foregroundColorServiceNotAvail="#656565" backgroundColorMarked="#656565" colorServiceDescriptionFallback="yellowsoft" colorServiceDescriptionSelectedFallback="yellowsoft" colorFallbackItem="#aaaaaa" colorServiceSelectedFallback="un33333a" />
+  <widget source="ServiceEvent" render="Label" position="1161,110" size="720,30" font="Regular; 28" foregroundColor="blue" backgroundColor="background" transparent="1" halign="center" noWrap="1" valign="center" text="19.2E  DVB-S2  10627 27500 3/4 8PSK" zPosition="3">
+    <convert type="ServiceName2">%O  %s  %F %p %Y %f %M %b</convert>
+  </widget>
+  <widget source="key_menu" conditional="key_menu" render="Pixmap" pixmap="FullNightHD/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38">
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <widget source="key_info" conditional="key_info" render="Pixmap" pixmap="FullNightHD/buttons/key_info.png" alphatest="blend" position="135,1031" size="52,38">
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <ePixmap pixmap="FullNightHD/buttons/key_info.png" alphatest="blend" position="135,1031" size="52,38" />
+  <eLabel position="center,0" size="1920,87" backgroundColor="toptemplatecolor" />
+  <ePixmap pixmap="FullNightHD/border/smallshadowline.png" position="center,87" size="1920,3" zPosition="2" />
+  <widget source="screen_path" render="Label" position="30,5" size="1860,20" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;19" valign="center" halign="left" />
+  <widget source="Title" render="Label" position="center,7" size="1860,75" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;36" valign="center" halign="left" />
+  <widget source="global.CurrentTime" render="Label" position="1665,18" size="225,37" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;36" valign="center" halign="right">
+    <convert type="ClockToText">Format:%-H:%M</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="1440,50" size="450,37" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center" halign="right">
+    <convert type="ClockToText">Date</convert>
+  </widget>
+  <eLabel position="0,1022" size="1920,58" backgroundColor="toptemplatecolor" name="e" />
+  <ePixmap pixmap="FullNightHD/border/smallshadowline.png" position="center,1020" size="1920,3" />
+  <widget source="session.CurrentService" render="Label" position="1165,330" size="720,35" zPosition="1" foregroundColor="white" transparent="1" font="Regular; 30" borderColor="black" borderWidth="2" noWrap="1" valign="center" halign="center">
+    <convert type="ServiceName">Name</convert>
+  </widget>
+  <widget source="ServiceEvent" render="Label" position="1165,287" size="90,32" transparent="1" foregroundColor="foreground" font="Regular;28" halign="left">
+    <convert type="EventTime">StartTime</convert>
+    <convert type="ClockToText">Format:%H:%M</convert>
+  </widget>
+  <widget source="ServiceEvent" render="Progress" position="1258,295" size="540,12" pixmap="FullNightHD/window/progressc.png" transparent="0" backgroundColor="un33333a" borderWidth="0">
+    <convert type="EventTime">Progress</convert>
+  </widget>
+  <widget source="ServiceEvent" render="Label" position="1803,287" size="90,32" transparent="1" foregroundColor="foreground" font="Regular;28" halign="right">
+    <convert type="EventTime">EndTime</convert>
+    <convert type="ClockToText">Format:%H:%M</convert>
+  </widget>
+  <widget source="ServiceEvent" render="Label" position="1165,375" size="720,35" transparent="1" foregroundColor="yellow" noWrap="1" font="Regular; 30" halign="center">
+    <convert type="EventName">Name</convert>
+  </widget>
+  <widget source="ServiceEvent" render="MRunningText" options="movetype=running,startpoint=0,direction=top,steptime=100,startdelay=4000,wrap,always=0" position="1165,428" size="720,370" transparent="1" font="Regular;30" halign="left">
+    <convert type="EventName">FullDescription</convert>
+  </widget>
+   <widget source="ServiceEvent" render="MSingleEpgListNobile2" position="1165,820" size="720,190" transparent="1" timeColor="grey" foregroundColor="yellowsoft" noLabel="1" noWrap="1" font="Regular;30" NumberOfItems="5" />
+  <widget objectTypes="key_red,StaticText" source="key_red" render="Pixmap" pixmap="FullNightHD/buttons/red.png" position="192,1032" size="34,34" zPosition="1" alphatest="blend">
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <ePixmap objectTypes="key_red,Button,Label" pixmap="FullNightHD/buttons/red.png" position="192,1032" size="34,34" zPosition="1" alphatest="blend" />
+  <ePixmap objectTypes="key_green,Button,Label" pixmap="FullNightHD/buttons/green.png" position="628,1032" size="34,34" zPosition="1" alphatest="blend" />
+  <ePixmap objectTypes="key_blue,Button,Label" pixmap="FullNightHD/buttons/blue.png" position="1500,1032" size="34,34" zPosition="1" alphatest="blend" />
+  <ePixmap objectTypes="key_yellow,Button,Label" pixmap="FullNightHD/buttons/yellow.png" position="1064,1032" size="34,34" zPosition="1" alphatest="blend" />
+  <widget objectTypes="key_green,Label,Button" name="key_green" position="678,1030" size="370,38" backgroundColor="black" zPosition="1" transparent="1" font="Regular;34" halign="left" />
+  <widget objectTypes="key_red,Label,Button" name="key_red" position="242,1030" size="370,38" backgroundColor="black" zPosition="1" transparent="1" font="Regular;34" halign="left" />
+  <widget objectTypes="key_yellow,Label,Button" name="key_yellow" position="1114,1030" size="370,38" backgroundColor="black" zPosition="1" transparent="1" font="Regular;34" halign="left" />
+  <widget objectTypes="key_blue,Label,Button" name="key_blue" position="1550,1030" size="370,38" backgroundColor="black" zPosition="1" transparent="1" font="Regular;34" halign="left" />
+  <widget source="ServiceEvent" render="MXPicon" position="1418,152" size="220,132" zPosition="2" transparent="1" alphatest="blend">
+    <convert type="ServiceName">Reference</convert>
+  </widget>
+  <ePixmap pixmap="FullNightHD/buttons/key_info.png" alphatest="blend" position="135,1031" size="52,38" />
+  <ePixmap pixmap="FullNightHD/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38" />
+  <ePixmap pixmap="FullNightHD/border/smallshadowline1.png" position="1166,808" size="720,3" />
+  <ePixmap position="1415,149" size="226,138" zPosition="1" pixmap="FullNightHD/infobar/xpback.png" alphatest="blend" />
+</screen>

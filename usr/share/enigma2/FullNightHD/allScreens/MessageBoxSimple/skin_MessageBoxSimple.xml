@@ -1,0 +1,48 @@
+  <screen name="MessageBoxSimple" title="Message" position="center,255" size="900,280">
+    <widget name="ErrorPixmap" pixmap="FullNightHD/icons/input_error.png" position="10,10" size="80,80" alphatest="blend" />
+    <widget name="QuestionPixmap" pixmap="FullNightHD/icons/input_question.png" position="10,10" size="80,80" alphatest="blend" />
+    <widget name="InfoPixmap" pixmap="FullNightHD/icons/input_info.png" position="10,10" size="80,80" alphatest="blend" />
+    <widget name="text" position="140,20" size="720,150" font="Regular;36" halign="center" foregroundColor="white" transparent="1" />
+    <widget name="list" position="30,120" size="840,350" font="Regular;30" itemHeight="40" transparent="1" />
+    <applet type="onLayoutFinish">
+	from enigma import eSize, ePoint
+	if self.timerRunning:
+	titleheight = 10
+	else:
+	titleheight = 0
+	self.setTitle("")
+	orgwidth = self.instance.size().width()
+	orgheight = self.instance.size().height() + 10
+	orgpos = self.instance.position()
+	textsize = self["text"].getSize()
+	textsize = (textsize[0] + 100, textsize[1] + 10)
+	wsizex = textsize[0] + 120
+	wsizey = textsize[1]
+	lenlist = len(self.list)*40
+	if (lenlist &gt; 160):
+	lenlist = 160
+	if (64 &gt; wsizey):
+	wsizey = 64
+	if self.type == self.TYPE_YESNO:
+	wsizey += lenlist + 10
+	if (280 &gt; wsizex):
+	wsizex = 280
+	wsize = (wsizex, wsizey + titleheight + 25)
+	self.instance.resize(eSize(*wsize))
+	self["text"].instance.move(ePoint(110, 8 + titleheight))
+	self["text"].instance.resize(eSize(*textsize))
+	self["ErrorPixmap"].instance.move(ePoint(20, 10 + titleheight))
+	self["ErrorPixmap"].instance.resize(eSize(80,80))
+	self["QuestionPixmap"].instance.move(ePoint(20, 10 + titleheight))
+	self["QuestionPixmap"].instance.resize(eSize(80,80))
+	self["InfoPixmap"].instance.move(ePoint(20, 10 + titleheight))
+	self["InfoPixmap"].instance.resize(eSize(80,80))
+	if self.type == self.TYPE_YESNO:
+	listsize = (wsizex-4, lenlist)
+	self["list"].instance.move(ePoint(2, wsizey - lenlist + titleheight + 20))
+	self["list"].instance.resize(eSize(*listsize))
+	newwidth = wsize[0]
+	self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (orgheight - wsizey)/2))
+	</applet>
+  </screen>
+	
